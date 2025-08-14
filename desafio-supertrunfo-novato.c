@@ -90,6 +90,9 @@ float pib1, pib2, area1, area2;
     printf("-----------------CARTAS------------------\n");
     printf("-----------------------------------------\n");
 
+    printf("_________________________________________\n");
+
+    
     printf("Carta 1:\n\n");
     printf("Estado: %c\n", estado1);
     printf("Código: %s\n", codigo1);
