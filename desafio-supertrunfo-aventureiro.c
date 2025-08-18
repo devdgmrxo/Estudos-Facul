@@ -70,3 +70,16 @@ void coletaDados(void){
 
 }
 
+//funcao para a exposicao de dados
+
+void mostrarDados(void){
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
