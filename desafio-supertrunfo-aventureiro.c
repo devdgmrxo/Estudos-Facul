@@ -39,7 +39,7 @@ void coletaDados(void){
     printf("Digite a quantidade de pontos turísticos:\n");
     scanf("%d", &turismo1);
 
-//Essa mensagemdeve aparecer na coleta das informações da segunda carta
+//Essa mensagem deve aparecer na coleta das informações da segunda carta
 
     printf("_______________________________________\n");
     printf("Digite as informações da SEGUNDA Carta:\n");
@@ -68,9 +68,5 @@ void coletaDados(void){
     printf("Digite a quantidade de pontos turísticos:\n");
     scanf("%d", &turismo2);
 
-
-
-
-
-
 }
+
