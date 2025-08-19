@@ -91,7 +91,7 @@ void mostrarDados(void){
     printf("Área: %.2f km²\n", area1);
     printf("PIB: %.2f\n", pib1);
     printf("Pontos turísticos: %d\n\n", turismo1);
-
+    printf("
     printf("_________________________________________\n");
 
     printf("Carta 2:\n\n");
