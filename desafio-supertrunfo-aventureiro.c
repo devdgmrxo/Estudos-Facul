@@ -118,4 +118,12 @@ void mostrarDados(void){
      printf("_______________________________________\n");    
     
 }
+    
+    int main (){
+        
+        coletaDados();
+        mostraDados();
+        
+return 0;   
+    }
 
