@@ -85,7 +85,7 @@ void mostrarDados(void){
     //calculo para densidade e pib per capta;
 
     dens1 = (float) populacao1 / area1;
-    ppc1 = (float) pib1 / populacao1;
+    ppca1 = (float) pib1 / populacao1;
     
     printf("Carta 1:\n\n");
     printf("Estado: %c\n", estado1);
@@ -95,14 +95,14 @@ void mostrarDados(void){
     printf("Área: %.2f km²\n", area1);
     printf("PIB: %.2f\n", pib1);
     printf("Pontos turísticos: %d\n", turismo1);
-    printf("Densidade populacional: %.2f\n", dens1);
-    printf("PIB per capta: %.2f\n\n", ppc1);
+    printf("Densidade populacional: %.2f hab/km²\n", dens1);
+    printf("PIB per capta: %.2f Reais\n\n", ppca1);
     printf("_________________________________________\n");
     
 //calculo para densidade e pin per capta;
 
     dens2 = (float) populacao2 / area2;
-    ppc2 = (float) pib2 / populacao2;
+    ppca2 = (float) pib2 / populacao2;
     
     printf("Carta 2:\n\n");
     printf("Estado: %c\n", estado2);
@@ -112,8 +112,8 @@ void mostrarDados(void){
     printf("Área: %f km²\n", area2);
     printf("PIB: %.2f Bilhões de reais\n", pib2);
     printf("Pontos turísticos: %d\n", turismo2);
-    printf("Densidade populacional: %.2f\n", dens2);
-    printf("PIB per capta: %.2f\n\n", ppc2);
+    printf("Densidade populacional: %.2f hab/km²\n", dens2);
+    printf("PIB per capta: %.2f Reais\n\n", ppca2);
 
      printf("_______________________________________\n");    
     
@@ -122,7 +122,7 @@ void mostrarDados(void){
     int main (){
         
         coletaDados();
-        mostraDados();
+        mostrarDados();
         
 return 0;   
     }
