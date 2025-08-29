@@ -246,7 +246,7 @@ void mostrarDados(void)
                         printf("==============CARTA 1 VENCEU!!!===============\n");
                         printf("==============================================\n");
                     }
-                    else if (pib1 == pib2) // SE CARTA 1 FOR IGUAL A CARTA 2
+                    else if (turismo1 == turismo2) // SE CARTA 1 FOR IGUAL A CARTA 2
                     {
                         printf("==============================================\n");
                         printf("=================EMPATE!!!====================\n");
